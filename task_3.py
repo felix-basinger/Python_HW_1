@@ -5,7 +5,7 @@
 # 385916 – счастливый, т.к. 3+8+5=9+1+6. Вам требуется написать программу,
 # которая проверяет счастливость билета.
 
-print_num = input("Enter your number: ")
+print_num = input("Enter your six-digit number: ")
 if len(print_num) != 6:
     print("Error! Incorrect data")
 else:
